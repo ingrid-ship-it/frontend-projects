@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+ 
+    h1 {
+      font-size: 25px;
+      text-align: center;
+      margin: auto;
+    }
+    h2 {
+      color: blueviolet;
+      text-align: center;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 15px;
+      margin: 0 auto;
+      max-width: 500px;
+      text-align: center;
+    }
+    body {
+      text-align: center;
+    }
+    
+
+  
+    button{
+      background : blueviolet;
+      display: block;
+      margin: 20px;
+      place-items: center;
+      margin: auto;
+      color: white;
+      padding: 10px; 
+    }
+  
+  </style>
+
+</head>
+<body> 
+<br>
+<br>
+<br>
+  <h1>🙎‍♀️SheCodes is a Coding Workshop for Women </h1>
+  <h2> Access a new career in Technology</h2>
+
+  <br>
+  <p> She Codes teaches coding, design and management skills to women</p>
+ <strong>Limited amount of spots available!</strong> 
+ <br>
+ <br>
+  <button class="button" onclick="askForName()">Apply Now</button>
+
+
+  <script>
+
+    function askForName() {
+  let name = prompt("What is your name?");
+  let age = prompt("How old are you?");
+
+
+  if (age >= 18) {
+    alert("Hi, " + name + "! Welcome to SheCodes!");
+  } else {
+    alert("Sorry, " + name + "! You cannot join SheCodes");
+  }
+}
+
+
+
+    
+  </script>
+
+</body>
+</html>
